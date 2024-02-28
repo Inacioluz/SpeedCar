@@ -3,10 +3,5 @@ import './index.css'
 import { router } from './reoutes'
 
 export function App() {
-
-  return (
-
-    <RouterProvider router={router} />
-  )
+  return <RouterProvider router={router} />
 }
-
