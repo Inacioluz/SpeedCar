@@ -15,15 +15,17 @@ export function SignIn() {
               Acessar Painel
             </h1>
             <p className="text-sm text-muted-foreground">
-              Acompanhe seu processo
+              Seus sonhos ao seu alcance
             </p>
           </div>
           <form className="space-y-4">
-            <div className="space-x-2">
-              <Label></Label>
-              <Input></Input>
+            <div className="space-y-2">
+              <Label htmlFor="email">Seu e-mail</Label>
+              <Input id="email" type="email" />
             </div>
-            <Button>Acessar painel</Button>
+            <Button className="w-full" type="submit">
+              Acessar painel
+            </Button>
           </form>
         </div>
       </div>

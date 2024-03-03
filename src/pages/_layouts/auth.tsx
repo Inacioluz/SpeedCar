@@ -12,7 +12,7 @@ export function AuthLayout() {
         <footer className="">Painel do parceiro &copy; Speed.Car</footer>
       </div>
 
-      <div>
+      <div className="flex flex-col items-center justify-center">
         <Outlet />
       </div>
     </div>
